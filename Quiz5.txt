@@ -1,0 +1,109 @@
+#after applying parenthesis() for every print statement
+
+Que1
+Ans = 24
+x = 2*2, x = 4*3, x = 12*2
+
+Que2
+Ans = 2.0
+floor division, gives the quotient only and decimal value because value of a is in decimal
+
+Que3
+Ans = ACADVIEW
+it is because - for "and", both the conditions should be true
+              - for "or" , any one condition should be true
+            
+Que4
+Ans = 3
+not a = false, not b = true
+false or true or true and true, only this can execute
+
+Que5
+Ans = 4
+because count is initialised by 1, it will 2 then 3 and finally 4 (if it was initialised by 0 then answer would be 3)
+
+Que6
+Ans = 111
+when parameter for the class is passed, the id value would be overwritten
+
+Que7
+Ans = 0
+      1
+      4
+      5
+index starts from 0 if not mentioned, first loop will print two values "0 and 1"
+indexing will start from 4, and last index is not considered, loop ends at index-1, so second loop prints "4 and 5"
+
+Que8
+Ans = 1
+      2
+      3
+      4
+values contains 4 elements [1,2,34]
+
+Que9
+Ans = 3
+as 3 parameters are passed 
+
+Que10
+51
+manager.life is 49
+length of manager.__dict__(49) is 2
+49+2 = 51
+
+Que11
+Ans = it will give an error as string and integer, it cannot convert integer to string implicitly
+after putting 13 in quotes as "13", these can be concatenated
+and result would be "AcadView13"
+
+Que12
+Ans = 4
+1+2+1 = 4
+
+Que13
+Ans = 2
+initially, length was 3, 1st element is deleted and new element is added at its place, length remains 3, 2nd element is deleted but not added
+so length of the dictionary is 2
+
+Que14
+Ans = k
+as indexing of the list starts from 0, so at index it is "pratik", and from that indexing starts from the last as -1, 
+so last element of the first index is "k"
+
+Que15
+Ans = error
+ACADVIEW is not in the list so it will give an error
+if element would have been in the list, it had multiplied the index by 5 and then given the result
+
+Que16
+Ans = 5
+4 elements are already present in the list, when list is appended, its adds one element to the list, [5,6,7,8] this is one element
+that is added to the list, so total elements in the list are "5"
+
+Que17
+Ans = 5
+one element is already there, and four elements are present in mylistContainer
+
+Que18
+Ans = webs
+it also counts the blank spaces, so index starts from 17 and print the elements till 20
+
+Que19
+Ans = 1 1 1
+      1 2 1
+      3 2 3
+for 1st print statement, value of "val = 1" in every case
+then B.val = 2, and other two are still the same
+then A.val = 3, B.val = 2 and then C(A) will be 3
+so the result is as written above
+
+Que20
+Ans = 12
+first if statement will be executed 2 times, therefore, count = 2
+second if statement will be executed 1 time, count = 2+10 = 12
+
+Que21
+Ans = [0, 1]
+      [3, 2, 1, 0, 1, 4]
+      [0, 1, 0, 1, 4]
+as the function is called and parameters are given, it will be executed accordingly
